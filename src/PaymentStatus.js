@@ -6,7 +6,7 @@ import seniorsuccess from "../src/images/seniorcitizensuccess.svg";
 
 const ApplicationStatus = () => {
   const location = useLocation();
-  const navigate = useNavigate(); // Hook to navigate programmatically
+  const navigate = useNavigate();
   const [service, setService] = useState("");
   const [content, setContent] = useState({
     message: "",
@@ -18,8 +18,8 @@ const ApplicationStatus = () => {
   useEffect(() => {
     const queryParams = new URLSearchParams(location.search);
     const serviceParam = queryParams.get("service");
-    setService(serviceParam); // Update the service state
-  }, [location.search]); // Re-run this effect when location.search changes
+    setService(serviceParam);
+  }, [location.search]);
 
   useEffect(() => {
     // Update content based on service
@@ -61,39 +61,43 @@ const ApplicationStatus = () => {
   return (
     <div className="status-container bg-white" style={{ marginLeft: "-1%" }}>
       <div className="content">
-      <div className="text-content">
-  <div className="checkmark-container">
-    <div className="checkmark-circle">
-      <span className="checkmark">&#10003;</span>
-    </div>
-  </div>
-  <h1 className="header-text">Application Received</h1>
-  
-  <p className="message-text">{content.message}</p>
+        <div className="text-content">
+          <div className="checkmark-container">
+            <div className="checkmark-circle">
+              <span className="checkmark">&#10003;</span>
+            </div>
+          </div>
+          <h1 className="header-text">Application Received</h1>
 
-  {content.whatsappLink && (
-    <a
-      href={content.whatsappLink}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="whatsapp-link"
-    >
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-        alt="WhatsApp Logo"
-        className="whatsapp-logo"
-      />
-      <span>{content.whatsappText}</span>
-    </a>
-  )}
+          <p className="message-text">{content.message}</p>
 
-  {/* Wrap button inside a div */}
-  <div className="button-container">
-    <button className="back-to-home" onClick={handleBackToHome} style={{margin:'1%'}}>
-      Back to Home
-    </button>
-  </div>
-</div>
+          {content.whatsappLink && (
+            <a
+              href={content.whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whatsapp-link"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp Logo"
+                className="whatsapp-logo"
+              />
+              <span>{content.whatsappText}</span>
+            </a>
+          )}
+
+          {/* Wrap button inside a div */}
+          <div className="button-container">
+            <button
+              className="back-to-home"
+              onClick={handleBackToHome}
+              style={{ margin: "1%" }}
+            >
+              Back to Home
+            </button>
+          </div>
+        </div>
 
         <div className="image-content">
           <img src={content.image} alt={`${service} Illustration`} />
