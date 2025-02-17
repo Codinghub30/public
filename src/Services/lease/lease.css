@@ -1,0 +1,205 @@
+@media (max-width: 768px) {
+    .container-lease {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 36%;
+      white-space: nowrap;
+    }
+    .container-lease .lease-text p{
+        font-size: 12px;
+        word-break: normal;
+    }
+    .container-lease .lease-text h2{
+        font-size: 16px;
+    }
+
+    .container-lease img{
+      
+    }
+
+    .text-ptag{
+      flex: 1;
+      text-align: left;
+      font-weight: bold;
+      margin-top: 12%;
+    }
+
+    .content-section lease-sequance {
+        display: none;
+    }
+    .popupstyle-lease .popup-lease{
+      width: 103%;
+  height: 100%;
+  }
+  .stepper-lease .button-lease-stepper{
+      display: none;
+    }
+  }
+
+  .popup-lease{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .container-lease .lease-text h2{
+    margin-left: 25%;
+    margin-bottom: 60px;
+    font-weight: "bold";
+  }
+
+  .container-lease img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 19%;
+  }
+
+  @media (max-width: 768px) {
+    .step-container {
+      display: none; /* Hide the entire step container */
+    }
+    .step-button{
+      display: none;
+    }
+    .step-divider {
+      display: none; /* Hide dividers */
+    }
+  }
+
+  .charges {
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 1.8;
+    white-space: nowrap; /* Prevent wrapping for desktop */
+  }
+
+  
+  .text-ptag{
+    flex: 1;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .charge-item {
+    margin-bottom: 10px;
+  }
+
+  .mobile-break {
+    display: none; /* Default: hidden for desktop */
+  }
+
+  @media (max-width: 768px) {
+    .charges {
+      white-space: normal; /* Enable wrapping for mobile */
+    }
+    .mobile-break {
+      display: inline; /* Show <br> on mobile screens */
+    }
+
+    .charges h4{
+      margin-left: -65px;
+    }
+
+    .document-how h4{
+      margin-left: -45px;
+    }
+
+    .timeduration h4{
+      margin-left: -45px;
+    }
+
+    .charge-item {
+      margin-left: -72px;
+        font-size: 13px;
+    }
+
+    .time-item{
+      margin-left: -55px;
+        font-size: 13px;
+    }
+
+    .how-item{
+      margin-left: -55px;
+      font-size: 13px;
+    }
+
+    .mobile-break {
+      display: block; /* Break the line for mobile */
+    }
+    .what-lease .what-item{
+      font-size: 14px;
+    }
+    .text-lease-aggreement p{
+
+    }
+  }
+
+  .verify-button {
+    background-color: #ffa500;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  /* Mobile View: Full Width & Fixed at Bottom */
+  @media (max-width: 768px) {
+    .verify-button-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 12px 50px;
+ 
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+      background: #ffa500; /* No background */
+      text-align: center;
+    }
+  
+    .verify-button {
+      width: 100%;
+    }
+  }
+  /* Default Button Styles */
+  .proceed-button {
+    background-color: #fca505;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+   
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   
+  }
+  
+  /* Mobile View: Full Width & Fixed at Bottom */
+  @media (max-width: 768px) {
+    .proceed-button-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 12px 50px;
+      font-weight: bold;
+      font-size: 16px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+      background: #ffa500; /* No background */
+      text-align: center;
+    }
+  
+    .proceed-button {
+      width: 100%;
+    }
+  }
+  

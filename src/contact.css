@@ -1,0 +1,136 @@
+/* Base styles */
+.contact-header {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-top: 8%;
+  background-color: #f7f9fb;
+  margin-bottom: 30px;
+}
+
+.contact-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-header p {
+  font-size: 16px;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+  width: 50%;
+  max-width: 200px;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #008c9e;
+}
+
+/* Contact Info */
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.info-box {
+  text-align: center;
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+  position: relative;
+}
+
+.icon-wrapper {
+  background-color: #fda500;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon {
+  font-size: 24px;
+  color: white;
+}
+
+/* Success Modal */
+.modal-content {
+  text-align: center;
+}
+
+.modal-body {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-header {
+      margin-top: 38%;
+  }
+
+  .contact-header h1 {
+      font-size: 22px;
+  }
+
+  .contact-header p {
+      font-size: 14px;
+  }
+
+  .contact-form {
+      width: 90%;
+  }
+
+  .contact-form input,
+  .contact-form select {
+      font-size: 14px;
+  }
+
+  .contact-form button {
+      width: 60%;
+      margin-left: 21%;
+  }
+
+  .info-box {
+      width: 90%;
+  }
+}

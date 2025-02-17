@@ -1,0 +1,654 @@
+@media (max-width: 768px) {
+    .container-rental {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 5%;
+      text-align: center;
+      margin-top: 16%;
+    }
+    .content-section  text-container{
+        width: 265%;
+
+    }
+    .rental-text-container{
+      margin-top: 19%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    /* .charges {
+      margin-left: 5%; 
+      margin-top: 10%;
+      text-align: left; 
+    }
+  
+    .charges li {
+    margin-left: 1%;
+    line-height: 1.5;
+    font-size: 14px; 
+  }
+  
+    .charges h4 {
+      font-size: 16px; 
+    } */
+
+    .popupstyle-rental .popup-rental{
+      width: 103%;
+  height: 100%;
+  }
+  .stepper-rental .button-rental-stepper{
+      display: none;
+    }
+  }
+
+  .popup-rental{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  @media (max-width: 768px) {
+
+    .showpopup{
+      width: 1%;
+    }
+
+    
+  }
+
+  @media (max-width: 768px) {
+    .step-container {
+      display: none; /* Hide the entire step container */
+    }
+    .step-button{
+      display: none;
+    }
+    .step-divider {
+      display: none; /* Hide dividers */
+    }
+  }
+
+
+  .charges {
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 1.8;
+    white-space: nowrap; /* Prevent wrapping for desktop */
+  }
+
+  
+
+  
+  .charge-item {
+    margin-bottom: 10px;
+  }
+
+  .mobile-break {
+    display: none; /* Default: hidden for desktop */
+  }
+
+  @media (max-width: 768px) {
+    .charges {
+      white-space: normal; /* Enable wrapping for mobile */
+    }
+    .mobile-break {
+      display: inline; /* Show <br> on mobile screens */
+    }
+
+    .charges h4{
+      margin-left: -65px;
+    }
+
+    .document-how h4{
+      margin-left: -45px;
+    }
+
+    .timeduration h4{
+      margin-left: -45px;
+    }
+
+    .charge-item {
+      margin-left: -72px;
+        font-size: 13px;
+    }
+
+    .time-item{
+      margin-left: -55px;
+        font-size: 13px;
+    }
+
+    .how-item{
+      margin-left: -55px;
+      font-size: 13px;
+    }
+
+    .mobile-break {
+      display: block; /* Break the line for mobile */
+    }
+  }
+
+
+  /* Container */
+.mobile-content-container {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Row Layout */
+.mobile-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Icon Container */
+.mobile-icon-container {
+  flex: 0 0 30%; /* 30% width for the icon container */
+  text-align: center;
+}
+
+.mobile-circle-icon {
+  max-width: 100%; /* Ensure the circle fits within its container */
+}
+
+.mobile-documents-icon,
+.mobile-how-icon,
+.mobile-price-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40%; /* Adjust the size of the inner icon */
+  transform: translate(-50%, -50%);
+}
+
+/* Content Section */
+.mobile-content {
+  flex: 1; /* Take the remaining space */
+  padding-left: 10px;
+}
+
+.mobile-title {
+  font-size: 14px;
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.mobile-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.mobile-item {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.mobile-note {
+  font-weight: bold;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .mobile-circle-icon {
+    max-width: 49px; /* Adjust the circle size for smaller screens */
+  }
+
+  .mobile-documents-icon,
+  .mobile-how-icon,
+  .mobile-price-icon {
+    width: 25%; /* Adjust the inner icon size for smaller screens */
+  }
+
+  .mobile-title {
+    font-size: 14px;
+  }
+
+  .mobile-item {
+    font-size: 12px;
+  }
+}
+
+/* Default Styles */
+.continue-button-container {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.continue-button {
+  background-color: #fca505;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .continue-button-container {
+    position: fixed;
+    border-radius: 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+    z-index: 999; /* Ensure it stays above other elements */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 50px;
+    padding: 10px 0; 
+  }
+
+  .continue-button {
+    width: 90%; /* Make the button span most of the screen */
+    max-width: 320px; /* Set a maximum width for larger mobile screens */
+    margin: 0 auto; /* Center the button horizontally */
+    border-radius: 2px;
+    
+  }
+}
+
+/* Default Styles */
+.next-button-container {
+  text-align: center;
+  margin-top: -26px;
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .next-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    border: none; 
+    border-radius: 0; 
+    text-align: center;
+    z-index: 999; /* Ensures it stays above other content */
+    /* background-color: #fff; Optional: Add a background for better visibility */
+    padding: 10px 0;
+  }
+
+  .next-button {
+    width: 90%; /* Make the button span most of the screen */
+    max-width: 300px; /* Set a maximum width */
+    margin: 0 auto; /* Center the button horizontally */
+  }
+}
+
+
+   /* Default Styles */
+.submit-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default spacing for desktop view */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #fca505; /* Ensure the color code starts with # */
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .submit-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; /* Ensure it stays above other elements */
+    background-color: #fff; /* Optional: Add background for contrast */
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow for separation */
+  }
+
+  .submit-button {
+    width: 90%; /* Span most of the screen width */
+    max-width: 300px; /* Set a maximum width for larger screens */
+    margin: 0 auto; /* Center the button horizontally */
+    font-size: 14px; /* Slightly smaller font for mobile */
+  }
+}
+
+/* General Styles */
+.agreement-container {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.agreement-title {
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.agreement-subtitle {
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.required-asterisk {
+  color: red;
+}
+
+/* Radio Buttons Container */
+.agreement-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.agreement-option {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.radio-input {
+  margin-right: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .agreement-container {
+    padding: 15px;
+  }
+
+  .agreement-title {
+    font-size: 18px;
+  }
+
+  .agreement-subtitle {
+    font-size: 16px;
+  }
+
+  .agreement-options {
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .agreement-option {
+    font-size: 16px;
+  }
+
+  .error-message {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .agreement-title {
+    font-size: 20px;
+  }
+
+  .agreement-subtitle {
+    font-size: 18px;
+  }
+
+  .agreement-options {
+    gap: 20px;
+  }
+
+  .agreement-option {
+    font-size: 17px;
+  }
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 991.98px) {
+  .mobile-content-container {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .mobile-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .mobile-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .mobile-circle-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .mobile-documents-icon,
+  .mobile-how-icon,
+  .mobile-price-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+  }
+
+  .mobile-content {
+    text-align: center;
+  }
+
+  .mobile-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .mobile-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-item {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .mobile-note {
+    font-size: 12px;
+    color: #777;
+  }
+}
+
+/* General Styles */
+.mobile-content-container {
+  padding: 20px;
+  margin-top: -70px;
+}
+
+.mobile-row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  text-align: left; /* Align all text to the left */
+}
+
+.mobile-icon-container {
+  flex: 0 0 15%; /* Adjust icon container width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.mobile-circle-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.mobile-documents-icon,
+.mobile-how-icon,
+.mobile-price-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mobile-content {
+  flex: 1;
+}
+
+.mobile-list {
+  list-style: none;
+  text-align: left;
+  margin-top: 15%;
+    /* margin-left: -37%; */
+  padding: 0;
+  /* margin: 0 0 10px 0; Add spacing between the list and the h4 */
+}
+
+.mobile-item {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.mobile-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px; /* Adjust spacing above the title */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 991.98px) {
+  .mobile-row {
+    flex-direction: row; /* Keep content and icon side by side */
+    align-items: flex-start;
+  }
+
+  .mobile-circle-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .mobile-documents-icon,
+  .mobile-how-icon,
+  .mobile-price-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .mobile-title {
+    font-size: 14px;
+  }
+
+  .mobile-item {
+    font-size: 13px;
+  }
+}
+
+
+.verify-button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .verify-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 50px;
+ 
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .verify-button {
+    width: 100%;
+  }
+}
+/* Default Button Styles */
+.proceed-button {
+  background-color: #fca505;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ 
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .proceed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 50px;
+ 
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .proceed-button {
+    width: 100%;
+  }
+}

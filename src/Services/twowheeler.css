@@ -1,0 +1,261 @@
+.insurance-container {
+    min-height: 60vh;
+    padding-top: 20px;
+    background: linear-gradient(182.42deg, #fca505 2.01%, #ffffff);
+  }
+
+.desktop-document{
+    margin-top: -38%;
+    margin-left: 71%;
+}
+.desktop-how{
+    margin-top: 33%;
+    margin-left: 72%;
+}
+.desktop-document .text-document{
+    color: #007BFF;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    white-space: nowrap; 
+}
+
+.desktop-how .text-how{
+    color: #007BFF;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.desktop-how .text-ul{
+    padding-left:20px;
+    line-height: 1.8;
+    white-space: nowrap;
+}
+
+.desktop-document .text-ul{
+    padding-left:20px;
+    line-height: 1.8;
+    white-space: nowrap;
+}
+
+
+  @media (max-width: 768px) {
+    .insurance-container {
+     margin-top: 20%;
+    }
+  
+    .text-content {
+      margin-bottom: 20px; 
+    }
+    .text-content h1{
+    font-size: 18px;
+    }
+  
+    .vehicles-icon {
+      margin-top: -81px;
+      margin-left: 23%;
+    }
+    .popupstyle-twowheeler .popup-twowheeler{
+        width: 103%;
+    height: 100%;
+    }
+
+    .desktop-document{
+        margin-left: -9%;
+        white-space: normal;
+    }
+    .desktop-how{
+        margin-left: -8%;
+    }
+
+
+    .desktop-document .text-document{
+        white-space: normal; /* Allow text wrapping */
+    text-align: center; /* Center-align for better appearance */
+    font-size: 18px; /* Adjust font size for mobile */
+    width: 90%; /* Constrain width to control wrapping */
+    margin: 0 auto; /* Center the text block */
+    line-height: 1.4; 
+    }
+
+    .desktop-document .text-document::after{
+        content: "";
+    }
+
+    .desktop-how .text-how{
+        color: #007BFF;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .desktop-how .text-ul{
+        font-size: 14px;
+    }
+    .desktop-document .text-ul{
+        font-size: 14px;
+    }
+  }
+
+
+  .popup-twowheeler{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+
+/* Default styles for desktop */
+.get-quotes-button {
+    text-align: center;
+  margin-top: 3%;
+  border-radius: 30px;
+    position: static;
+  }
+
+ 
+
+  .get-quotes-button  .button-static{
+    background-color: #FCA505;
+    color: #000000;
+    padding: 12px 50px;
+    border: none;
+
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 40%;
+    margin-top: -30%;
+  }
+  
+  /* Media query for mobile view */
+  @media screen and (max-width: 768px) {
+    .get-quotes-button {
+      position: fixed; /* Fix the button to the bottom of the viewport */
+      bottom: 0;
+      font-weight: bold;
+      font-size: 16px;
+      left: 0;
+      width: 100%; /* Full width for footer style */
+      z-index: 1000; /* Ensure it appears above other elements */
+      padding: 20px 50px;
+    }
+  
+    .get-quotes-button button {
+      position: fixed; /* Fix the button to the bottom of the viewport */
+      bottom: 0;
+      font-weight: bold;
+      font-size: 16px;
+      left: 0;
+      width: 100%; /* Full width for footer style */
+      z-index: 1000; /* Ensure it appears above other elements */
+      padding: 12px 50px;
+    }
+  }
+  
+
+  .icon-section {
+    position: relative;
+    display: inline-block;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+  }
+  
+  .overlay-icon {
+    width: 20px; /* Adjust size of the inner icon */
+    height: 31px; /* Adjust size of the inner icon */
+    position: absolute;
+    margin-top: -27%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .list-unstyled {
+    list-style: none; /* Removes dots from the list */
+    padding: 0;
+    margin: 0;
+  }
+.img-fluid{
+    max-width: 82%;
+    height: auto;
+}
+  
+
+@media (max-width: 768px) {
+    .faq-list div {
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+}
+
+
+.next-button-container {
+    text-align: center; /* Center the button horizontally */
+  }
+  
+  .next-insurance-button {
+    padding: 10px 20px;
+    background-color: #fca505;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: static; /* Default position for desktop */
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 768px) {
+    .next-insurance-button {
+      position: fixed; /* Fix the button to the bottom of the viewport */
+      bottom: 0;
+      font-weight: bold;
+      font-size: 16px;
+      left: 0;
+      width: 100%; /* Full width for footer style */
+      z-index: 1000; /* Ensure it appears above other elements */
+      padding: 12px 50px;
+     
+    }
+  }
+
+  .submit-button-container {
+    text-align: center; /* Center button horizontally */
+  }
+  
+  .submit-insurance-button {
+    padding: 10px 20px;
+    background-color: #fca505;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: static; /* Default position for desktop */
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 768px) {
+    .submit-insurance-button {
+      position: fixed; /* Fix the button to the bottom of the viewport */
+      bottom: 0;
+      font-weight: bold;
+      font-size: 16px;
+      left: 0;
+      width: 100%; /* Full width for footer style */
+      z-index: 1000; /* Ensure it appears above other elements */
+      padding: 12px 50px;
+     
+    }
+    .img-fluid-circle{
+      width: 47%;
+    }
+  }
+  
+
+ 
+  

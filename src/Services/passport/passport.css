@@ -1,0 +1,307 @@
+@media (max-width: 768px) {
+    .container-passport{
+        flex-direction: column;
+        text-align: center;
+        height: 300px;
+        margin-top: 36%;
+        white-space: nowrap;
+    }
+    .passport-image img {
+        width: 90%; 
+        margin-bottom: 53%;
+      }
+    .container-passport p{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .popupstyle-passport .popup-passport{
+        width: 103%;
+    height: 100%;
+    }
+
+    .stepper-passport .button-passport-stepper{
+        display: none;
+      }
+}
+
+
+.container-passport {
+    display: flex;
+    /* margin-top: -32%; */
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    /* height: 500px; */
+    background: linear-gradient(182.42deg, #fca505 2.01%, #ffffff);
+    padding: 20px;
+  }
+  
+  /* Styles for the image */
+  .passport-image img {
+    max-width: 80%;
+    height: auto;
+    /* margin-top: 20%; */
+  }
+
+
+  .popup-passport {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  .document-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .document-section {
+    margin: 20px 0;
+  }
+
+  .section-title {
+    color: #007BFF;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .document-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .list-title {
+    font-weight: bold;
+  }
+
+  /* Mobile-Specific Adjustments */
+  @media (max-width: 768px) {
+    .document-section {
+      margin: 10px auto; /* Center the section on mobile */
+      text-align: left; /* Align text to the left */
+    }
+
+    .section-title {
+      font-size: 16px; /* Reduce font size */
+      text-align: center; /* Center the title */
+    }
+
+    .document-list {
+      padding-left: 10px; /* Adjust padding for smaller screens */
+      line-height: 1.5; /* Reduce line height for compact display */
+    }
+
+    .list-title {
+      font-size: 0.9em; /* Reduce title font size */
+      
+    }
+  }
+
+  /* Default Styles */
+.continue-button-container {
+  text-align: center;
+  margin-top: 4%; /* Default margin for desktop */
+}
+
+.continue-button {
+  background-color: #fca505;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto; /* Center the button horizontally */
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .continue-button-container {
+    position: fixed; /* Fix button to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0; /* Add padding for the footer area */
+    text-align: center;
+    z-index: 1000; /* Ensure the button stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+
+  .continue-button {
+    width: 90%; /* Make the button span most of the screen width */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    padding: 12px; /* Adjust padding for better UX on mobile */
+    font-size: 14px; /* Adjust font size for better visibility */
+    border-radius: 20px; /* Slightly rounded corners */
+  }
+}
+
+
+/* Default Styles */
+.next-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop */
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .next-button-container {
+    position: fixed; /* Fix button to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0; /* Add padding for the footer area */
+    text-align: center;
+    z-index: 1000; /* Ensure the button stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+
+  .next-button {
+    width: 90%; /* Make the button span most of the screen width */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    padding: 12px; /* Adjust padding for better UX on mobile */
+    font-size: 14px; /* Adjust font size for better visibility */
+    border-radius: 20px; /* Slightly rounded corners */
+  }
+}
+
+/* Default Styles */
+.submit-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .submit-button-container {
+    position: fixed; /* Fix button to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0; /* Add padding for the footer area */
+    text-align: center;
+    z-index: 1000; /* Ensure the button stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+  .faq-tag-title-h3{
+    font-size:  16px;
+  }
+
+  .submit-button {
+    width: 90%; /* Make the button span most of the screen width */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    padding: 12px; /* Adjust padding for better UX on mobile */
+    font-size: 14px; /* Adjust font size for better visibility */
+    border-radius: 20px; /* Slightly rounded corners */
+  }
+}
+
+
+.faq-tag-title-h3{
+  font-size:  24px;
+  color: #1a76d8;
+}
+
+.verify-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Default button styles */
+.verify-button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+/* Mobile view: Make the button full width */
+@media (max-width: 768px) {
+  .verify-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .verify-button {
+    width: 100%; /* Full width on mobile */
+  }
+}
+
+/* Default Button Styles */
+.proceed-button {
+  background-color: #fca505;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ 
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .proceed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #fca505; /* No background */
+    text-align: center;
+  }
+
+  .proceed-button {
+    width: 100%;
+  }
+}
+

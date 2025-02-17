@@ -1,0 +1,740 @@
+@media (max-width: 768px) {
+   .headsection {
+     margin-top: 35%;
+   }
+ 
+   .headsection img {
+     object-position: top; /* Adjust image position for mobile */
+     object-fit: cover;
+   }
+ 
+   .headsection .content h1 {
+     font-size: 1.5rem;
+   }
+ 
+   .headsection .content p {
+     font-size: 0.875rem;
+   }
+
+   .continue-button {
+      position: fixed; /* Fix button at the bottom */
+      bottom: 0; /* Align to the bottom */
+      left: 0;
+      width: 100%; /* Full width */
+      margin: 0; /* Reset margin */
+      padding: 12px 0; /* Adjust padding */
+      z-index: 1000; /* Ensure it appears on top */
+      text-align: center; /* Center the text */
+      font-size: 18px; /* Slightly larger font for better visibility */
+    }
+
+    .popupstyle-servicevisa .popup-servicevisa{
+      width: 103%;
+  height: 100%;
+  }
+  .stepper-servicevisa .button-servicevisa-stepper{
+      display: none;
+    }
+  
+ }
+
+ .popup-servicevisa{
+ 
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ }
+
+
+ /* General Popup Styling */
+.popup-container {
+   position: fixed;
+   top: 100px;
+   left: 0;
+   width: 100%;
+   height: 86%;
+   background-color: rgba(26, 118, 216, 0.9);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 9999;
+ }
+ 
+ .popup-content {
+   background-color: #ffffff;
+   padding: 40px;
+   border-radius: 28px;
+   width: 70%;
+   max-height: 90%;
+   overflow-y: auto;
+   text-align: center;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ }
+ 
+ /* Close Button Styling */
+ .popup-close-button {
+   position: absolute;
+   top: 25px;
+   left: 8%;
+   background: #000000;
+   border: 1px solid #fca505;
+   font-size: 20px;
+   padding: 8px;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #fff;
+ }
+ 
+ /* Button Styling */
+ .popup-button {
+   padding: 10px 20px;
+   background-color: #fca505;
+   color: #000000;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+ }
+ 
+ .popup-button:disabled {
+   background-color: #ccc;
+   cursor: not-allowed;
+ }
+ 
+ /* Form Inputs */
+ .popup-input {
+   width: 100%;
+   padding: 8px;
+   margin-top: 5px;
+   border: 2px solid #fca505;
+   border-radius: 10px;
+   font-size: 16px;
+ }
+ 
+ .document-title{
+  color: #007BFF;
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+ }
+ /* Responsive Styles */
+ @media (max-width: 768px) {
+   .popup-container {
+     top: 0;
+     height: 100%;
+   }
+ 
+   .popup-content {
+     width: 90%;
+     padding: 20px;
+     border-radius: 15px;
+   }
+ 
+   .popup-button {
+     font-size: 14px;
+     padding: 8px 16px;
+   }
+ 
+   .popup-close-button {
+     top: 10px;
+     left: 5%;
+     font-size: 18px;
+     padding: 6px;
+   }
+ 
+   .popup-input {
+     font-size: 14px;
+     padding: 6px;
+   }
+ 
+   .stepper-buttons {
+     flex-direction: column;
+     gap: 10px;
+   }
+   .text-center .document-title{
+    margin-left: -157%;
+        font-size: 18px;
+   }
+   .document-ul{
+    font-size: 12px;
+    margin-left: -380%;
+    white-space: normal;
+
+   }
+ }
+
+
+
+ @media (max-width: 768px) {
+   .thank-you-container {
+     padding: 15px;
+   }
+ 
+   .thank-you-message {
+     font-size: 20px;
+   }
+
+
+   
+ 
+   .info-box {
+     max-width: 100%;
+     margin-left: 10%;
+   }
+ 
+   .input {
+     font-size: 14px;
+      margin-left: 1%;
+      width: 35%;
+   }
+ 
+   .label {
+     font-size: 14px;
+     margin-left: -47%;
+   }
+ 
+   .proceed-button {
+     font-size: 14px;
+     padding: 8px 16px;
+   }
+ }
+ 
+
+
+ .text-center .document-ul{
+  white-space: nowrap;
+ }
+
+ .document-ul{
+  text-align: left;
+  display: block; 
+  white-space: nowrap;
+ }
+
+
+ .visa-docs-container {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.visa-docs-section {
+  margin: 20px 0;
+  margin-left: 75%;
+  margin-top: -30%;
+}
+
+.visa-docs-title {
+  color: #007bff;
+  font-weight: bold;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.visa-docs-desc {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.8;
+  text-align: left;
+  white-space: normal; /* Enable text wrapping */
+  word-wrap: break-word; /* Break long words if needed */
+  overflow-wrap: break-word;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .visa-docs-section {
+    margin: 10px auto; /* Center the section for mobile */
+    margin-left: 0; /* Remove excessive left margin */
+    margin-top: 0; /* Adjust the top margin */
+  }
+
+  .visa-docs-title {
+    font-size: 1em; /* Reduce font size */
+    text-align: center; /* Center the title for mobile */
+  }
+
+  .visa-docs-desc {
+    margin-left: -62%;
+    padding-left: 10px; /* Reduce padding for compact mobile view */
+      line-height: 1.5; /* Compact line spacing for readability */
+      white-space: normal; /* Allow text to wrap to the next line */
+      word-wrap: break-word; /* Ensure long words break onto new lines */
+      overflow-wrap: break-word;
+  }
+}
+
+
+.how-it-works-container {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.how-it-works-section {
+  margin: 20px 0;
+  margin-left: 80%; /* Default margin for larger screens */
+  margin-top: -30%;
+}
+
+.how-it-works-title {
+  color: #007bff;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent wrapping of the title */
+  text-align: left; /* Align the title to the left */
+}
+
+.how-it-works-desc {
+  text-align: left; /* Align the description to the left */
+  white-space: normal; /* Allow text wrapping */
+  word-wrap: break-word; /* Break long words if needed */
+  overflow-wrap: break-word; /* Break lines at appropriate points */
+  padding: 10px 0;
+  line-height: 1.8;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .how-it-works-section {
+    margin: 10px auto; /* Center the section for mobile */
+    margin-left: 0; /* Remove excessive left margin */
+    margin-top: 0; /* Adjust top margin */
+  }
+
+  .how-it-works-title {
+    font-size: 1em; /* Reduce font size for mobile */
+    text-align: center; /* Center the title for better alignment */
+    white-space: nowrap; /* Allow wrapping if the title is long */
+  }
+
+  .how-it-works-desc {
+    margin-left: -62%;
+    padding-left: 10px; /* Adjust padding for compact layout */
+    line-height: 1.5; /* Reduce line height for readability */
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Ensure long words break onto new lines */
+    overflow-wrap: break-word; /* Break lines for long words */
+  }
+}
+
+/* Default Styles */
+.time-duration-container {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.time-duration-section {
+  margin: 20px 0;
+  margin-left: 80%; /* Default for larger screens */
+  margin-top: -25%; /* Adjust top margin for desktop */
+}
+
+.time-duration-title {
+  color: #007bff;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent wrapping for the title */
+  text-align: left; /* Align the title to the left */
+}
+
+.time-duration-desc {
+  text-align: left; /* Align the description to the left */
+  white-space: normal; /* Enable text wrapping */
+  word-wrap: break-word; /* Break long words if needed */
+  overflow-wrap: break-word; /* Ensure proper wrapping for long words */
+  padding: 10px 0;
+  line-height: 1.8;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .time-duration-section {
+    margin: 10px auto; /* Center the section on mobile */
+    margin-left: 0; /* Remove excessive left margin */
+    margin-top: 0; /* Adjust top margin for mobile */
+  }
+
+  .time-duration-title {
+    font-size: 1em; /* Reduce title font size for mobile */
+    text-align: center; /* Center the title for better alignment */
+    white-space: nowrap; /* Allow wrapping if the title is lengthy */
+  }
+
+  .time-duration-desc {
+    margin-left: -62%;
+    padding-left: 10px; /* Adjust padding for compact layout */
+    line-height: 1.5; /* Compact line spacing for readability */
+    white-space: normal; /* Enable text wrapping */
+    word-wrap: break-word; /* Ensure long words break onto new lines */
+    overflow-wrap: break-word; /* Break lines at appropriate points */
+  }
+}
+
+ /* Default Styles */
+ .charges-container {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.charges-section {
+  margin: 20px 0;
+  margin-left: 80%; /* Default for larger screens */
+  margin-top: -25%; /* Adjust top margin for desktop */
+}
+
+.charges-title {
+  color: #007bff;
+  font-weight: bold;
+  white-space: nowrap; /* Prevent title wrapping */
+  text-align: left; /* Align title to the left */
+}
+
+.charges-desc {
+  text-align: left; /* Align description to the left */
+  white-space: normal; /* Enable text wrapping */
+  word-wrap: break-word; /* Break long words if needed */
+  overflow-wrap: break-word; /* Ensure proper wrapping for long words */
+  padding: 10px 0;
+  line-height: 1.8;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .charges-section {
+    margin: 10px auto; /* Center section on mobile */
+    margin-left: 0; /* Remove excessive left margin */
+    margin-top: 0; /* Adjust top margin for mobile */
+  }
+
+  .charges-title {
+    font-size: 1em; /* Reduce title font size for mobile */
+    text-align: center; /* Center title for better alignment */
+    white-space: normal; /* Allow wrapping if the title is lengthy */
+  }
+
+  .charges-desc {
+    margin-left: -62%;
+    font-size: 14px;
+    padding-left: 10px; /* Adjust padding for compact layout */
+    line-height: 1.5; /* Compact line spacing for readability */
+    white-space: normal; /* Enable text wrapping */
+    word-wrap: break-word; /* Ensure long words break onto new lines */
+    overflow-wrap: break-word; /* Break lines at appropriate points */
+  }
+}
+
+.headsection {
+  position: relative;
+  width: 100%;
+}
+
+.banner-name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .headsection {
+    min-height: 40vh; /* Reduce height for smaller screens */
+  }
+
+  .banner-name {
+    font-size: 24px; /* Smaller font size for mobile */
+    padding: 10px; /* Add padding for better spacing */
+  }
+}
+
+/* Media Query for Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .headsection {
+    min-height: 50vh; /* Slightly reduced height for tablets */
+  }
+
+  .banner-name {
+    font-size: 28px; /* Adjust font size for tablets */
+  }
+}
+
+
+
+/* Mobile Section Styling */
+.mobile-section {
+  padding: 20px;
+}
+
+.mobile-content {
+  display: flex;
+  align-items: flex-start; /* Align icon and text to the top */
+}
+
+.mobile-icon-container {
+  flex: 0 0 20%; /* Keep the icon container at a fixed width */
+  position: relative;
+}
+
+.circle-icon-mobile {
+  max-width: 60%;
+}
+
+.mobile-title {
+  font-size: 16px; /* Reduce font size for smaller screens */
+  font-weight: bold;
+  color: #1e76d4;
+  margin-bottom: 5px;
+  text-align: left; /* Align title to the left */
+}
+
+.mobile-desc {
+  font-size: 12px; /* Smaller font size for description */
+  text-align: left; /* Align text to the left */
+  /* margin: 0; */
+}
+
+
+/* General Styles */
+.mobile-text-content {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.mobile-title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  color: #1e76d4;
+}
+
+.mobile-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* UL and LI Styles for Consistency */
+.mobile-desc ul {
+  display: grid;
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 20px 0;
+}
+
+.mobile-desc li {
+  padding: 5px 0;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 991.98px) {
+  .mobile-title {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #1e76d4;
+  }
+
+  .mobile-desc {
+    font-size: 12px;
+    line-height: 1.4;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .mobile-desc ul {
+    /* padding-left: 10px; */
+    margin: 10px 0;
+  }
+
+  .mobile-desc li {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .faq-section{
+ 
+  }
+}
+.text-center-continue{
+  text-align: center;
+  margin-top: 26%;
+}
+
+.fixed-button {
+  background-color: #fca505;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  position: static; /* Default for desktop */
+  margin-top: -30%;
+}
+
+.faq-section-visa{
+  margin: 16px auto;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 80%
+}
+
+
+/* Mobile View */
+@media (max-width: 991.98px) {
+  .fixed-button {
+    position: fixed; 
+    bottom: 0; 
+    /* top: 0; */
+    left: 50%; /* Centers the button horizontally */
+    transform: translateX(-50%); /* Adjusts for perfect centering */
+    z-index: 1000; /* Ensures it appears on top */
+    width: 100%; /* Optional: Adjust button width */
+    margin: 0; /* Removes unwanted margins */
+  }
+  .faq-section-visa{
+    margin: -105px auto;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 80%
+  }
+}
+
+/* Default styles for desktop */
+.next-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Mobile View */
+@media (max-width: 991.98px) {
+  .next-button {
+    position: fixed; /* Fix the button to the bottom */
+    bottom: 0; /* Distance from the bottom */
+    left: 50%; /* Center horizontally */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 50px;
+    transform: translateX(-50%); /* Adjust for perfect centering */
+    z-index: 1000; /* Ensure it appears on top */
+    width: 100%; /* Optional: Adjust width for smaller screens */
+  }
+}
+
+/* Default styles for desktop */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  /* height: 1%; */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Mobile View */
+@media (max-width: 991.98px) {
+  .submit-button {
+    position: fixed; /* Fix the button to the bottom */
+    bottom: 0; /* Distance from the bottom */
+    left: 50%; /* Center horizontally */  
+    transform: translateX(-50%); /* Adjust for perfect centering */
+    z-index: 1000; /* Ensure it appears on top */
+    width: 100%; /* Optional: Adjust width for smaller screens */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 50px;
+  }
+}
+
+
+.verify-button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .verify-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 50px;
+ 
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .verify-button {
+    width: 100%;
+  }
+}
+/* Default Button Styles */
+.proceed-button {
+  background-color: #fca505;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ 
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .proceed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 50px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .proceed-button {
+    width: 100%;
+  }
+}

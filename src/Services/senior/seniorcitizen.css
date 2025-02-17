@@ -1,0 +1,416 @@
+@media (max-width: 768px) {
+    .container-senior{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 36%;
+        height: 346px;
+        white-space: nowrap;
+    }
+    .container-senior p{
+        font-size: 13px;
+    }
+    .container-senior img{
+        margin-top: -141%;
+    }
+    .senior-text-container{
+        margin-top: -28%;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .popupstyle-senior .popup-senior{
+        width: 103%;
+    height: 100%;
+    }
+    .stepper-senior .button-senior-stepper{
+        display: none;
+      }
+
+}
+
+.popup-senior {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+.container-senior {
+    background: linear-gradient(182.42deg, #FCA505 2.01%, #FFFFFF);
+  
+    /* padding-top: 20px;  */
+    display: flex; /* Sets the display to flex */
+    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; /* Adds space between child elements */
+    padding: 0 20px; /* Horizontal padding */
+    /* margin-top: -10%; Moves the container upward */
+    /* height: 450px; */
+  }
+
+  .senior-text-container{
+    padding: 10px; 
+    text-align: left; 
+    margin-left: 8%; 
+  }
+
+  /* Base styles (Desktop view) */
+.container-step {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 33px;
+  }
+  
+  .container-step > div {
+    flex: 1;
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  .container-step > div:last-child {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  
+  /* Media query for mobile view */
+  @media (max-width: 768px) {
+    .container-step {
+      flex-direction: column; /* Stack elements vertically */
+      margin-bottom: 20px;
+    }
+  
+    .container-step > div {
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 20px; /* Add spacing between stacked elements */
+    }
+  
+    .container-step > div:last-child {
+      margin-bottom: 0;
+    }
+    .senior-textcontent{
+      margin-top: 14%;
+    }
+  
+    input,
+    select {
+      font-size: 14px; /* Slightly smaller font for mobile */
+    }
+  
+    label {
+      font-size: 16px; /* Adjust label size for readability */
+    }
+  }
+  
+  .senior-card-container {
+    display: block;
+  }
+
+  .senior-card-section {
+    margin: 20px 0;
+  }
+
+  .section-title {
+    color: #007BFF;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .document-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .strikethrough {
+    text-decoration: line-through;
+    margin-right: 10px;
+  }
+
+  .discounted-price {
+    color: #007BFF;
+  }
+
+  .bold-text {
+    font-weight: bold;
+  }
+
+  /* Media Query for Mobile */
+  @media (max-width: 768px) {
+    .senior-card-section {
+      margin: 10px auto; /* Center section */
+      text-align: left; /* Align text to left */
+    }
+
+    .section-title {
+      font-size: 1em; /* Reduce title size */
+      text-align: center; /* Keep title centered */
+    }
+
+    .document-list {
+      padding-left: 10px; /* Reduce padding for mobile */
+      line-height: 1.5; /* Compact spacing */
+      font-size: 14px;
+    }
+
+    .strikethrough,
+    .discounted-price,
+    .bold-text {
+      font-size: 0.9em; /* Reduce font size for clarity */
+    }
+  }
+
+
+  /* Circle Icon Container */
+.circle-icon-container {
+  position: relative;
+  width: 60px; /* Adjust based on your design */
+  height: 60px;
+}
+
+.circle-img {
+  width: 66%;
+  height: auto;
+}
+
+.icon-overlay {
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 39%; /* Adjust size of overlay icons */
+  height: auto;
+}
+
+/* Layout for Row Container */
+.row-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px; /* Space between icon and content */
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  flex: 0 0 60px; /* Fixed width for the icon */
+}
+
+.content-container {
+  flex: 1; /* Content takes the remaining width */
+  text-align: left;
+}
+
+/* Content Styling */
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.document-list {
+  padding: 0;
+  list-style: none;
+}
+
+.document-list li {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Default Styles */
+.continue-button-container {
+  text-align: center;
+  margin-top: 4%; /* Default margin for desktop view */
+}
+
+.continue-button {
+  background-color: #fca505;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .continue-button-container {
+    position: fixed; /* Fix button to the bottom of the screen */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure the button stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+
+  .continue-button {
+    width: 90%; /* Make button span most of the screen width */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    padding: 12px; /* Adjust padding for better UX on mobile */
+    font-size: 14px; /* Adjust font size for better visibility */
+    margin: 0 auto; /* Center button horizontally */
+    border-radius: 20px; /* Slightly rounded corners */
+  }
+}
+
+/* Default Styles */
+.next-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop */
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .next-button-container {
+    position: fixed; /* Fix button to the bottom of the screen */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure the button stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+
+  .next-button {
+    width: 90%; /* Make the button span most of the screen width */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    padding: 12px; /* Adjust padding for better UX on mobile */
+    font-size: 14px; /* Adjust font size for better readability */
+    margin: 0 auto; /* Center the button horizontally */
+    border-radius: 20px; /* Slightly rounded corners for better design */
+  }
+}
+
+/* Default Styles */
+.submit-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .submit-button-container {
+    position: fixed; /* Fix button to the bottom of the screen */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure the button stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+
+  .submit-button {
+    width: 90%; /* Make the button span most of the screen width */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    padding: 12px; /* Adjust padding for better UX on mobile */
+    font-size: 14px; /* Adjust font size for better readability */
+    margin: 0 auto; /* Center the button horizontally */
+    border-radius: 20px; /* Slightly rounded corners for better design */
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .form-input,
+  .form-select {
+    width: 90%; /* Increase width for desktop */
+  }
+}
+
+/* Default Button Styles */
+.verify-button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .verify-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .verify-button {
+    width: 100%;
+  }
+}
+/* Default Button Styles */
+.proceed-button {
+  background-color: #fca505;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ 
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .proceed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .proceed-button {
+    width: 100%;
+  }
+}

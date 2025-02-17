@@ -1,0 +1,466 @@
+@media (max-width: 768px) {
+    .affidavit-container{
+        flex-direction: column;
+      text-align: center;
+      margin-top: 2%;
+      white-space: nowrap;
+    }
+   .affidavit-container h2{
+    margin-top: 7%;
+   }
+   .affidavit-choose{
+    margin-left: -50%;
+        margin-top: 29%;
+   }
+   .popupstyle-affidavit .popup-affidavit{
+    width: 103%;
+height: 100%;
+}
+.affidavit-text-content{
+  margin-top: 23%;
+}
+.stepper-affidavit .button-affidavit{
+    display: none;
+  }
+  
+}
+
+.popup-affidavit{
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 28px;
+  width: 70%;
+  max-height: 90%; /* Uncommented for functionality */
+  overflow-y: auto; /* Ensures content scrolls if it overflows */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+/* Default Styles (Desktop) */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    width: 30%;
+    text-align: start;
+  }
+  
+  .form-field label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-field input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #fca505;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Media Query for Mobile (Max Width: 768px) */
+  @media (max-width: 768px) {
+    .form-row {
+      flex-direction: column; /* Stack fields vertically */
+      gap: 20px; /* Add space between fields */
+    }
+  
+    .form-field {
+      width: 100%; /* Make fields full width */
+    }
+  
+    .form-field input {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      padding: 6px; /* Adjust padding for compact layout */
+    }
+    .container-status-affidavit{
+      margin-top: -1%;
+    margin-left: 15%;
+    }
+  }
+.how-document{
+  margin-top: -83%;
+  margin-left: 75%;
+}
+
+.how-document-text{
+  color:#007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.container-status-affidavit{
+  margin-left: -98%;
+  margin-right: 52%;
+
+}
+
+
+
+.status-container {
+  display: block;
+}
+
+.status-section {
+  margin: 20px 0;
+}
+
+.section-title {
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.status-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  line-height: 1.8;
+  text-align: center; /* Center alignment by default */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .status-container {
+    display: block;
+  }
+
+  .status-section {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .status-list {
+    line-height: 1.5;
+    margin-left: 32%;
+    font-size: 14px;
+  }
+
+  .section-title {
+    font-size: 1.2em; /* Adjust font size for better readability */
+  }
+  .affidavit-container h2{
+    font-weight: bold;
+    margin-top: 22%;
+  }
+  .affidavit-container img{
+    
+  }
+}
+
+.affidavit-container h2{
+  font-weight: bold;
+}
+
+/* Base Styles */
+.status-container {
+  margin-left: -179%; /* Adjust as necessary for desktop */
+  padding: 15px;
+}
+
+.status-section {
+  margin-bottom: 20px;
+}
+
+
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.status-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.status-list li {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .status-container {
+    margin-left: -179px; /* Reset margin for smaller screens */
+    padding: 10px;
+  }
+
+  .status-section {
+    margin-bottom: 15px;
+  }
+
+  .section-title {
+    font-size: 1rem; /* Smaller title font */
+  }
+
+  .image-affidaviticon{
+  
+  }
+
+  .status-list li {
+    font-size: 0.9rem; /* Reduce font size for list items */
+  }
+}
+
+/* Media Query for Extra Small Screens */
+@media (max-width: 576px) {
+  .status-container {
+    padding: 5px;
+  }
+
+  .section-title {
+    font-size: 0.9rem; /* Further reduce title font */
+  }
+
+  .status-list li {
+    font-size: 0.8rem; /* Adjust font size for very small screens */
+    line-height: 1.4; /* Tighten line spacing */
+  }
+}
+/* Default Styles */
+.row-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  text-align: center;
+  flex: 0 0 auto; /* Prevent the icon from stretching */
+}
+
+.content-container {
+  flex: 1; /* Allow content to take up remaining space */
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .row-container {
+    flex-direction: row; /* Align image and content side by side */
+    align-items: center; /* Vertically align items */
+    gap: 20px; /* Add spacing between image and content */
+  }
+
+  .icon-container {
+    flex: 0 0 30%; /* Image takes up 30% of the row */
+  }
+
+  .content-container {
+    flex: 1; /* Content takes the remaining space */
+    text-align: left; /* Align content text to the left */
+    /* margin-left: -9%; */
+  }
+
+  .section-title {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .status-list {
+    font-size: 12px; /* Adjust list font size */
+    padding-left: 0; /* Remove padding for cleaner look */
+  }
+}
+
+
+/* Default Button Styles */
+.continue-button-container {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.continue-button {
+  background-color: #fca505;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+/* Mobile View - Full Width Button at Footer */
+@media (max-width: 768px) {
+  .continue-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; /* Ensures it stays above other content */
+    background-color: #ffffff; /* Optional: Add background for contrast */
+    padding: 10px 0; /* Add some padding to the footer area */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+
+  .continue-button {
+    width: 90%; /* Button spans 90% of the screen */
+    max-width: 400px; /* Set a max width for larger mobile screens */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 12px 20px; /* Adjust padding for mobile */
+    border-radius: 20px; /* Reduce border radius for better look */
+  }
+}
+
+/* Default Styles */
+.next-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop view */
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Mobile View - Full Width Button at Footer */
+@media (max-width: 768px) {
+  .next-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; /* Ensures it stays above other content */
+    background-color: #ffffff; /* Optional background for contrast */
+    padding: 10px 0; /* Padding for the footer area */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Shadow for better visibility */
+  }
+
+  .next-button {
+    width: 90%; /* Button spans 90% of the screen */
+    max-width: 400px; /* Maximum width for larger mobile screens */
+    padding: 12px 20px; /* Adjusted padding for better look */
+    font-size: 14px; /* Adjusted font size for mobile */
+    margin: 0 auto; /* Center the button horizontally */
+    border-radius: 20px; /* Slightly rounded corners for better design */
+  }
+}
+
+
+/* Default Styles */
+.submit-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop view */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Mobile View - Fixed at Bottom */
+@media (max-width: 768px) {
+  .submit-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; /* Keeps it above other content */
+    background-color: #ffffff; /* Optional: Add background for better visibility */
+    padding: 10px 0; /* Add padding for the footer area */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+  }
+
+  .submit-button {
+    width: 90%; /* Span most of the screen width */
+    max-width: 400px; /* Maximum width for larger mobile screens */
+    padding: 12px 20px; /* Adjust padding for better visibility */
+    font-size: 14px; /* Slightly smaller font for mobile */
+    margin: 0 auto; /* Center the button horizontally */
+    border-radius: 20px; /* Rounded corners for better design */
+  }
+}
+
+
+/* Default Button Styles */
+.verify-button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .verify-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 50px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .verify-button {
+    width: 100%;
+  }
+}
+/* Default Button Styles */
+.proceed-button {
+  background-color: #fca505;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ 
+}
+
+/* Mobile View: Full Width & Fixed at Bottom */
+@media (max-width: 768px) {
+  .proceed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 50px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    background: #ffa500; /* No background */
+    text-align: center;
+  }
+
+  .proceed-button {
+    width: 100%;
+  }
+}
+

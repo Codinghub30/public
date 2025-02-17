@@ -1,0 +1,335 @@
+@media (max-width: 768px) {
+    .container-msme{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30%;
+        height: 346px;
+        white-space: nowrap;
+    }
+    .container-msme h2{
+        margin-top: 54%;
+        margin-left: 1%;
+        font-size: 22px;
+    }
+    .container-msme img{
+      margin-top: -21%;
+    }
+    .popupstyle-msme .popup-msme{
+        width: 103%;
+    height: 100%;
+    }
+    .stepper-msme .button-msme-stepper{
+        display: none;
+      }
+}
+
+.container-msme h2{
+
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.popup-msme{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 28px;
+    width: 70%;
+    max-height: 90%; /* Uncommented for functionality */
+    overflow-y: auto; /* Ensures content scrolls if it overflows */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Base styles */
+.application-form {
+    text-align: center;
+  }
+  
+  .application-title {
+    color: #1a76d8;
+    font-weight: 600;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  
+  .form-group {
+    width: 100%;
+  }
+  
+  .form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #fca505;
+    border-radius: 10px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .form-row {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .form-group {
+      width: 100%;
+    }
+  }
+  
+
+  .msme-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .msme-section {
+    margin: 20px 0;
+  }
+
+  .section-title {
+    color: #007bff;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .document-list,
+  .steps-list,
+  .time-list,
+  .charges-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  /* Mobile-Specific Adjustments */
+  @media (max-width: 768px) {
+    .msme-section {
+      margin: 10px auto; /* Center the sections */
+      text-align: left; /* Align text to the left */
+    }
+
+    .section-title {
+      font-size: 1em; /* Reduce title font size */
+      text-align: center; /* Keep titles centered */
+    }
+
+    .document-list,
+    .steps-list,
+    .time-list,
+    .charges-list {
+      padding-left: 10px; /* Reduce padding for mobile */
+      line-height: 1.5; /* Compact spacing */
+    }
+
+    .charges-list li {
+      font-size: 0.9em; /* Reduce font size for charges details */
+    }
+  }
+
+  .continue-button-container {
+    text-align: center;
+    margin-top: -2%; /* Default margin for desktop */
+  }
+  
+  .continue-button {
+    background-color: #fca505;
+    color: #000000;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: -30px; /* Default margin for desktop */
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 768px) {
+    .continue-button-container {
+      position: fixed; /* Fix button to the bottom of the screen */
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff; /* Optional: Add background for better contrast */
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000; /* Ensure the button stays above other content */
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    }
+  
+    .continue-button {
+      width: 90%; /* Make the button span most of the screen width */
+      max-width: 400px; /* Set a max width for larger mobile screens */
+      padding: 12px; /* Adjust padding for better UX on mobile */
+      font-size: 14px; /* Adjust font size for better readability */
+      margin: 0 auto; /* Center the button horizontally */
+      border-radius: 20px; /* Slightly rounded corners for better design */
+    }
+  }
+  /* Default Styles */
+  .next-button-container {
+    text-align: center;
+    margin-top: 20px; /* Default margin for desktop */
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    background-color: #fca505;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 768px) {
+    .next-button-container {
+      position: fixed; /* Fix button to the bottom of the screen */
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff; /* Optional: Add background for better contrast */
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000; /* Ensure the button stays above other content */
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    }
+  
+    .next-button {
+      width: 90%; /* Make the button span most of the screen width */
+      max-width: 400px; /* Set a max width for larger mobile screens */
+      padding: 12px; /* Adjust padding for better UX on mobile */
+      font-size: 14px; /* Adjust font size for better readability */
+      margin: 0 auto; /* Center the button horizontally */
+      border-radius: 20px; /* Slightly rounded corners for better design */
+    }
+  }
+  /* Default Styles */
+  .submit-button-container {
+    text-align: center;
+
+    margin-top: -82px; /* Default margin for desktop */
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #fca505;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  /* Media Query for Mobile View */
+  @media (max-width: 768px) {
+    .submit-button-container {
+      position: fixed; /* Fix button to the bottom of the screen */
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #ffffff; /* Optional: Add background for better contrast */
+      padding: 10px 0;
+      text-align: center;
+      z-index: 1000; /* Ensure the button stays above other content */
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    }
+  
+    .submit-button {
+      width: 90%; /* Make the button span most of the screen width */
+      max-width: 400px; /* Set a max width for larger mobile screens */
+      padding: 12px; /* Adjust padding for better UX on mobile */
+      font-size: 14px; /* Adjust font size for better readability */
+      margin: 0 auto; /* Center the button horizontally */
+      border-radius: 20px; /* Slightly rounded corners for better design */
+    }
+  }
+  
+
+  .verify-button {
+    background-color: #ffa500;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  /* Mobile View: Full Width & Fixed at Bottom */
+  @media (max-width: 768px) {
+    .verify-button-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+      background: #ffa500; /* No background */
+      text-align: center;
+    }
+  
+    .verify-button {
+      width: 100%;
+    }
+  }
+  /* Default Button Styles */
+  .proceed-button {
+    background-color: #fca505;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   
+  }
+  
+  /* Mobile View: Full Width & Fixed at Bottom */
+  @media (max-width: 768px) {
+    .proceed-button-container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+      background: #ffa500; /* No background */
+      text-align: center;
+    }
+  
+    .proceed-button {
+      width: 100%;
+    }
+  }
+  

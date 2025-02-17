@@ -1,0 +1,59 @@
+.destination-cards-container {
+    padding: 20px;
+  }
+  
+  .destination-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a76d8;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 15px;
+    background: #fff;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-body h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .apply-now-btn {
+    background-color: #fca505;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #e59404;
+  }
+
+
+  @media (max-width: 767px) {
+    .imageicon-visa{
+      margin-top: -35%;
+    }
+  }

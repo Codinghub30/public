@@ -1,0 +1,579 @@
+@media (max-width: 768px) {
+  .container-pancard{
+    flex-direction: column;
+      text-align: center;
+      margin-top: -20%;
+      white-space: nowrap;
+  }
+  .container-pancard p{
+    font-size: 14px;
+  }
+  .container-pancard img {
+   
+  }
+
+  .title-text-pancard p{
+font-size: 14px;
+  }
+
+  .popupstyle-pancard .popup-pancard{
+    width: 103%;
+    height: 100%;
+  }
+  .faq-section {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .faq-item button {
+    font-size: 12px;
+    text-align: left;
+    padding: 8px 15px;
+  }
+
+  .faq-list div {
+    margin-bottom: 15px;
+  }
+
+  button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+
+  .stepper-pancard .button-stepper{
+    display: none;
+  }
+}
+
+.popup-pancard {
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 28px;
+  width: 70%;
+  max-height: 90%; /* Uncommented for functionality */
+  overflow-y: auto; /* Ensures content scrolls if it overflows */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button-stepper{
+  width: 50px;
+  height: 50px;
+  background-color: #ccc; 
+  color: white;
+  border-radius: 50%;
+  line-height: 50px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.button-stepper .active{
+  background-color: desktop-margin-document#4285F4;
+}
+
+
+.desktop-margin {
+  margin-left: 70%;
+  margin-top: -115%;
+}
+
+.responsive-heading {
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.responsive-list {
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 1.8;
+  white-space: nowrap;
+}
+.desktop-text{
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.desktop-margin-document{
+  margin-left: 72%;
+  margin-top: 20%;
+}
+
+.desktop-margin-document-text{
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.desktop-margin-how{
+  margin-left: 72%;
+  margin-top: 20%;
+}
+
+.desktop-margin-time{
+  margin-left: 72%;
+  margin-top: 10%;
+}
+
+.desktop-margin-charges{
+  margin-left: 72%;
+  margin-top: 10%;
+}
+
+@media (max-width: 768px) {
+  .desktop-margin {
+    margin-left: -15%;
+    margin-top: 1%;
+  }
+  .desktop-margin .desktop-text{
+    font-size: 14px;
+    color: #007BFF;
+  }
+  .desktop-margin-document{
+margin-left: -14%;
+margin-top: -55%;
+  }
+  .desktop-margin-document .desktop-margin-document-text{
+    font-size: 14px;
+    color: #007BFF;
+    white-space: normal;
+  }
+  .desktop-margin-how{
+    margin-left: -14%;
+
+  }
+.desktop-margin-time{
+  margin-left: -14%;
+}
+
+.desktop-margin-charges{
+  margin-left: -14%;
+}
+.desktop-text-how{
+  font-size: 14px;
+}
+.desktop-text-time{
+  font-size: 14px;
+}
+.desktop-text-charges{
+  font-size: 14px;
+}
+.desktop-ul{
+font-size: 12px;
+/* margin-left: ; */
+}
+  
+}
+
+
+.desktop-text-how{
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.desktop-text-time{
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.desktop-text-charges{
+  color: #007BFF;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.desktop-ul{
+  display: grid;
+  padding-left: none;
+  white-space: nowrap;
+  margin: 20px 0;
+}
+
+
+  /* Default Styles */
+  .pan-card-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .new-pan-documents-section,
+  .correction-pan-documents-section,
+  .how-it-works-section,
+  .time-duration-section,
+  .charges-section {
+    margin: 20px 0;
+  }
+
+  .new-pan-title,
+  .correction-pan-title,
+  .how-it-works-title,
+  .time-duration-title,
+  .charges-title {
+    color: #007bff;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .new-pan-list,
+  .correction-pan-list,
+  .how-it-works-list,
+  .time-duration-list,
+  .charges-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+    line-height: 1.8;
+    text-align: left;
+  }
+
+  .required-text {
+    color: #1a76d8;
+  }
+
+  .original-price {
+    color: grey;
+    text-decoration: line-through;
+  }
+
+  /* Mobile-Specific Adjustments */
+  @media (max-width: 768px) {
+    .new-pan-documents-section,
+    .correction-pan-documents-section,
+    .how-it-works-section,
+    .time-duration-section,
+    .charges-section {
+      margin: 10px auto; /* Center the sections */
+      text-align: left; /* Align text to the left */
+    }
+
+    .pancard-text{
+      margin-top: 65%;
+    }
+    
+
+    .pan-card-container{
+      /* margin-left: 12px; */
+    }
+
+    .new-pan-title,
+    .correction-pan-title,
+    .how-it-works-title,
+    .time-duration-title,
+    .charges-title {
+      font-size: 1em; /* Reduce title font size */
+      text-align: center; /* Keep titles centered */
+    }
+
+    .new-pan-list,
+    .correction-pan-list,
+    .how-it-works-list,
+    .time-duration-list,
+    .charges-list {
+      padding-left: 10px; /* Reduce padding for mobile */
+      line-height: 1.5; /* Compact spacing */
+    }
+
+    .charges-list li {
+      font-size: 14px; /* Reduce font size for charges details */
+    }
+  }
+
+
+  /* Default Row Style */
+.row-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.content-container {
+  text-align: left;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .row-container {
+    flex-direction: row; /* Place icon and content in the same row */
+    align-items: center;
+    gap: 20px; /* Add space between icon and content */
+  }
+
+  .icon-container {
+    flex: 0 0 30%; /* Icon takes 30% of the row width */
+  }
+
+  .content-container {
+    flex: 1; /* Content takes the remaining space */
+  }
+
+  .new-pan-title,
+  .correction-pan-title,
+  .how-it-works-title,
+  .time-duration-title,
+  .charges-title {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .new-pan-list,
+  .correction-pan-list,
+  .how-it-works-list,
+  .time-duration-list,
+  .charges-list {
+    font-size: 12px; /* Smaller font for list items */
+  }
+}
+
+/* Default Styles */
+.continue-button-container {
+  text-align: center;
+  margin-top: 4%; /* Default margin for desktop */
+}
+
+.continue-button {
+  background-color: #fca505;
+  color: #000000;
+  padding: 12px 50px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .continue-button-container {
+    position: fixed; /* Fixes the button to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional background for contrast */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+  }
+
+  .continue-button {
+    width: 90%; /* Span most of the screen width */
+    max-width: 400px; /* Limit maximum width for larger screens */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 12px; /* Adjust padding for mobile view */
+    border-radius: 20px; /* Slightly rounded corners */
+    font-size: 14px; /* Adjust font size for better mobile UX */
+  }
+}
+
+/* Default Styles */
+.next-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop view */
+}
+
+.next-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .next-button-container {
+    position: fixed; /* Fix the button to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional: Add background for better contrast */
+    padding: 10px 0; /* Add padding for the footer area */
+    text-align: center;
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
+  }
+
+  .next-button {
+    width: 90%; /* Span most of the screen width */
+    max-width: 400px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 12px; /* Adjust padding for better mobile UX */
+    font-size: 14px; /* Adjust font size for better visibility */
+    border-radius: 20px; /* Slightly rounded corners for better design */
+  }
+}
+
+/* Default Styles */
+.submit-button-container {
+  text-align: center;
+  margin-top: 20px; /* Default margin for desktop */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #fca505;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+  .submit-button-container {
+    position: fixed; /* Fix button to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /* Optional background for better contrast */
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Keep above other elements */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+
+  .submit-button {
+    width: 90%; /* Make button span most of the screen width */
+    max-width: 400px; /* Set max width for larger screens */
+    padding: 12px; /* Adjust padding for mobile */
+    font-size: 14px; /* Adjust font size for better visibility */
+    margin: 0 auto; /* Center button horizontally */
+    border-radius: 20px; /* Slightly rounded corners for better design */
+  }
+}
+
+/* Default Row Style */
+.row-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.content-container {
+  text-align: left;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .row-container {
+    flex-direction: row; /* Align icon and content side by side */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Add spacing between icon and content */
+  }
+
+  .icon-container {
+    flex: 0 0 20%; /* Icon takes 20% of the row width */
+  }
+
+  .content-container {
+    flex: 1; /* Content takes the remaining space */
+  }
+
+  .section-title {
+    font-size: 14px; /* Adjust title font size */
+  }
+
+  .document-list li {
+    font-size: 12px; /* Adjust list font size */
+  }
+}
+
+
+
+.verify-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.verify-button {
+  background-color: #ffa500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Mobile view: Stick the button to the bottom */
+@media (max-width: 768px) {
+  .verify-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffa500;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+.proceed-button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.proceed-button {
+  background-color: #fca505; /* Green color for payment button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
+  text-align: center;
+}
+
+/* Mobile view: Stick the button to the bottom */
+@media (max-width: 768px) {
+  .proceed-button-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fca505;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+
+  .proceed-button {
+    width: 90%;
+  }
+}
+
+
+
+
+
